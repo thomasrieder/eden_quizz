@@ -1,0 +1,16 @@
+{
+  "name": "quizz",
+  "version": "1.0.0",
+  "description": "EDEN quizz and games",
+  "main": "quizz.js",
+  "scripts": {
+    "test": "node quizz.js"
+  },
+  "author": "EDEN Thomas Rieder",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1"
+  }
+}
