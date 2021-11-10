@@ -40,6 +40,6 @@ function setVoteButton(titles) {
     $('.vote-btn').on("click", function() {
         
         let vote_id = $(this).attr("id-title");
-        socket.emit('set-second-tour', {vote_id: vote_id, client_uid: deviceID});
+        socket.emit('new-vote', {vote_id: vote_id, client_uid: deviceID});
     });
 }
